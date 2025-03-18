@@ -1,0 +1,162 @@
+
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #64e8c7;
+}
+
+h1, h2, h3 {
+    color: #131212;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header and navigation */
+header {
+    background-color: #e3e3d1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    font-size: 1.8rem;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    background-color: #c94da8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+nav .nav-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Section styles */
+.section {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 15px;
+    padding: 10px;
+    background-color: #1a1610;
+    color: #f6f5f6;
+    border-radius: 5px;
+}
+
+
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f1c40f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #9d8e8e;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.social-icons a:hover img {
+    opacity: 0.8;
+}
